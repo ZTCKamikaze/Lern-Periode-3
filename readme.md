@@ -8,21 +8,22 @@ Mika Olmes
 
 1. M164: 5.0, M319: 5.0, M431: 5.0 Ich finde das das Modul 319 eines der wichtigsten Module ist, da es das Grundmodul aller Programmierprojekte ist.
 2. Ich hatte mir vorgenommen ein Tetris Spiel zu programmieren, aber ich habe es nicht zu Ende programmieren können. Ich hatte zwei VBV und zwar eimnmal das Modul 319 repetieren, und konzentrierter arbeiten, nicht so schnell ablenken lassen. Das Modul 319 zu repetieren könnte ich ganz einfach machen indem ich alle Präsentationen nochmals anschaue und ein paar Aufgaben mache.
-3. Ich würde gerne einen Currency berechner machen im Windows Forms.
+3. Ich würde gerne einen Currency berechner machen im Windows Forms (nur die 5 wichtigsten, da nicht so viel Zeit zur Verfügung steht).
 
 ## 9.1.2024
 
-✍️ Heute habe ich (50-100 Wörter)
+✍️ Heute habe ich mal geschaut was ich machen möchte. Zuerst wollte ich einen Vokavel Trainer für Japanische Grundwörter machen, doch ich habe ziemlich schnell gemerkt, dass es nicht so einfach für mich ist, darum habe ich nochmals nachgedacht was ich sonst machen könnte. Am Schluss bin ich dazu gekommen, dass ich einen Currency-Converter machen möchte. Aber ich weiss noch nicht genau ob ich das schaffen werde.(66 Wörter)
 
 ## 16.1.2024
 
-- [ ] Erstes Arbeitspaket
-- [ ] ...
-- [ ] Viertes AP
+- [ ] Die 5 wichtigsten Währungen eingetragen
+- [ ] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
+- [ ] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
+- [ ] Die Beziehungen in den Code einführen
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |     |     |     |   - [ ]  |
+| 1   |Programm in Visual Studio gestartet|EUR auswählen|Box heisst jetzt EUR|  JA   |
 | 2   |     |     |     |     |
 | 3   |     |     |     |     |
 | 4   |     |     |     |     |
@@ -33,11 +34,10 @@ Mika Olmes
 
 ## 23.1.2024
 
-- [ ] Fünftes AP
-  
-- [ ] ...
-  
-- [ ] Achtes AP
+- [ ] Alle Währungen sollten ausgerechnet werden
+- [ ] Es soll negative Zahlen als ungültig erkennnen (sowohl auch Buchstaben) und komma zahlen als gültig
+- [ ] Reset Button erstellen
+- [ ] Wenn noch zeit ist: Designe anpassen oder mehr Währungen einfügen.
   
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
