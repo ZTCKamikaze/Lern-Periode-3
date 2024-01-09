@@ -8,7 +8,7 @@ Mika Olmes
 
 1. M164: 5.0, M319: 5.0, M431: 5.0 Ich finde das das Modul 319 eines der wichtigsten Module ist, da es das Grundmodul aller Programmierprojekte ist.
 2. Ich hatte mir vorgenommen ein Tetris Spiel zu programmieren, aber ich habe es nicht zu Ende programmieren können. Ich hatte zwei VBV und zwar eimnmal das Modul 319 repetieren, und konzentrierter arbeiten, nicht so schnell ablenken lassen. Das Modul 319 zu repetieren könnte ich ganz einfach machen indem ich alle Präsentationen nochmals anschaue und ein paar Aufgaben mache.
-3. Ich würde geren einen Vokabel-Trainer für Japanische Wörter machen.
+3. Ich würde gerne einen Currency berechner machen im Windows Forms.
 
 ## 9.1.2024
 
