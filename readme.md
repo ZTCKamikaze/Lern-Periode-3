@@ -36,7 +36,7 @@ Mika Olmes
 
 - [ ] Alle Währungen sollten ausgerechnet werden
 - [ ] Es soll negative Zahlen als ungültig erkennnen (sowohl auch Buchstaben) und komma zahlen als gültig
-- [ ] Reset Button erstellen
+- [ ] Einen Button der das Programm beendet (nicht das Kreuz oben)
 - [ ] Wenn noch zeit ist: Designe anpassen oder mehr Währungen einfügen.
   
 
