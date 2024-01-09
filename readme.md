@@ -12,9 +12,9 @@ Mika Olmes
 
 ## 9.1.2024
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich (50-100 Wörter)
 
-## 16.1 und 23.1.2024
+## 16.1.2024
 
 - [ ] Erstes Arbeitspaket
 - [ ] ...
@@ -23,7 +23,8 @@ Mika Olmes
 | estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
 | 1   |     |     |     |     |
-| ... |     |     |     |     |
+| 2   |     |     |     |     |
+| 3   |     |     |     |     |
 | 4   |     |     |     |     |
 
 ✍️ Heute am 16.1 habe ich... (50-100 Wörter)
