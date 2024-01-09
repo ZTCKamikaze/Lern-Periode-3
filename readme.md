@@ -20,9 +20,9 @@ Mika Olmes
 - [ ] ...
 - [ ] Viertes AP
 
-| estfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
+| Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 1   |     |     |     |     |
+| 1   |     |     |     |   - []  |
 | 2   |     |     |     |     |
 | 3   |     |     |     |     |
 | 4   |     |     |     |     |
