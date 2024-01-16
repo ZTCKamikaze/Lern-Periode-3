@@ -16,9 +16,9 @@ Mika Olmes
 
 ## 16.1.2024
 
-- [ ] Die 5 wichtigsten Währungen eingetragen
+- [X] Die 5 wichtigsten Währungen eingetragen
 - [ ] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
-- [ ] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
+- [X] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
 - [ ] Die Beziehungen in den Code einführen
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
