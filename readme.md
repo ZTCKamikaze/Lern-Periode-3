@@ -17,7 +17,7 @@ Mika Olmes
 ## 16.1.2024
 
 - [X] Die 5 wichtigsten Währungen eingetragen
-- [ ] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
+- [X] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
 - [X] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
 - [ ] Die Beziehungen in den Code einführen
 
