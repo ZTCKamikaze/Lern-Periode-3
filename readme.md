@@ -28,7 +28,7 @@ Mika Olmes
 | 3   |     |     |     |     |
 | 4   |     |     |     |     |
 
-✍️ Heute am 16.1 habe ich... (50-100 Wörter)
+✍️ heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie.
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
@@ -42,11 +42,11 @@ Mika Olmes
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 5   |     |     |     |     |
+| 5   |   Programm in Visual Studio gestartet  |   -23 EUR - 2 CHF  |   Falsche Eingabe  |   NEIN  |
 | ... |     |     |     |     |
 | 8   |     |     |     |     |
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Leider habe ich heute nicht herausgefunden wie ich sie in den Code intigrieren kann, ich habe verschiedene Tests in neuen Programmen gemacht, aber nicht gefunden, aber am Schluss habe ich noche ein YouTube Video gefunden, dass genau das erklärt wie ich das ungefähr machen möchte.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
