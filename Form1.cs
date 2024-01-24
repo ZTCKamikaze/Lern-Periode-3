@@ -18,7 +18,40 @@ namespace Currency_Berechner
 
         private void button3_Click(object sender, EventArgs e)
         {
+            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
+            {
+                decimal exchangeRate = GetExchangeRate(sourceAmount, targetAmount);
+                decimal targetAmount = sourceAmount * exchangeRate;
+                
+                txttargetAmount.Text = targetAmount.ToString("N2");
+            }
+            else
+            {
+                MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
 
+        private static decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
+        {
+            switch (sourceCurrency)
+            {
+                case "USD":
+                    switch (targetCurrency)
+                    {
+                        case "USD": return 1;
+                        case "EUR": return 0.85m;
+                        case "JPY": return 110.2m;
+                        case "GBP": return 0.73m;
+                        case "AUD": return 1.35m;
+                        default: return 1;
+                    }
+                case "EUR":
+
+                    break;
+
+                default:
+                    return 1;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -43,6 +76,16 @@ namespace Currency_Berechner
                 "\nUSD -- GBP\t0.79\r" +
                 "\nUSD -- JPY\t146.05\r" +
                 "\nUSD -- CHF\t0.86");
+        }
+
+        private void Currency1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmdEnde_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
