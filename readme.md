@@ -19,7 +19,7 @@ Mika Olmes
 - [X] Die 5 wichtigsten Währungen eingetragen
 - [X] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
 - [X] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
-- [ ] Die Beziehungen in den Code einführen
+- [ ] Die Beziehungen in den Code einführen 
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
@@ -46,7 +46,7 @@ Mika Olmes
 | ... |     |     |     |     |
 | 8   |     |     |     |     |
 
-✍️ Leider habe ich heute nicht herausgefunden wie ich sie in den Code intigrieren kann, ich habe verschiedene Tests in neuen Programmen gemacht, aber nicht gefunden, aber am Schluss habe ich noche ein YouTube Video gefunden, dass genau das erklärt wie ich das ungefähr machen möchte.
+✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
