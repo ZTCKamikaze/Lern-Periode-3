@@ -18,7 +18,7 @@ namespace Currency_Berechner
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
+            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount)) //1. Fehler, ich benutze decimal zuerst und deklaniere sie danach, das funktioniert nicht, ich verusche herauszufinden wie, habe aber bis jetzt noch keine Lösung gefunden.
             {
                 decimal exchangeRate = GetExchangeRate(sourceAmount, targetAmount);
                 decimal targetAmount = sourceAmount * exchangeRate;
@@ -27,11 +27,11 @@ namespace Currency_Berechner
             }
             else
             {
-                MessageBox.Show("Bitte geben Sie einen g�ltigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private static decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
+        private static decimal GetExchangeRate(string sourceCurrency, string targetCurrency) // 2. Fehler, er sagt mir das nicht alle Werte zurückgegeben werden, muss ich ebenfalls noch eine Lösung finden.
         {
             switch (sourceCurrency)
             {
