@@ -36,38 +36,37 @@ namespace Currency_Berechner
 
         private decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
         {
-            int source = int.Parse(txtsourceAmount.Text);
-            Convert.ToDouble(source);
-
-            int target = int.Parse(txttargetAmount.Text);
-            Convert.ToDouble(target);
-
-            switch (sourceCurrency)
+            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
             {
-                case "USD":
-                    switch (targetCurrency)
-                    {
-                        case "USD":
-                            break;
-                        case "EUR":
-                            target = source;
-                            break;
-                        case "JPY":
-                            break;
-                        case "GBP":
-                            break;
-                        case "AUD":
-                            break;
-                        default: return 1;
-                    }
-                    break;
+                switch (sourceCurrency)
+                {
+                    case "USD":
+                        decimal targetAmount;
 
-                case "EUR":
+                        switch (targetCurrency)
+                        {
+                            case "USD":
+                                break;
+                            case "EUR":
+                                targetAmount = sourceAmount * Convert.ToInt32(0.92);
+                                break;
+                            case "JPY":
+                                break;
+                            case "GBP":
+                                break;
+                            case "AUD":
+                                break;
+                            default: return 1;
+                        }
+                        break;
 
-                    break;
-                
-                default:
-                    return 1;
+                    case "EUR":
+
+                        break;
+
+                    default:
+                        return 1;
+                }
             }
             return 0;
         }
