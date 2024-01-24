@@ -26,8 +26,8 @@ namespace Currency_Berechner
                 decimal exchangeRate = GetExchangeRate(Convert.ToString(sourceAmount), Convert.ToString(targetAmount));
                 targetAmount = sourceAmount * exchangeRate;
 
-                txttargetAmount.Text = targetAmount.ToString("N2");
-            }
+                txttargetAmount.Text = targetAmount.ToString("N2"); // txttargetAmount.Text = targetAmount * case USD -- case EUR:
+            }                                                       // txttargetAmount.Text = targetAmount.ToString("N2");
             else
             {
                 MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
