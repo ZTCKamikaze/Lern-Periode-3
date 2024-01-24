@@ -30,7 +30,7 @@ namespace Currency_Berechner
             }
             else
             {
-                MessageBox.Show("Bitte geben Sie einen g�ltigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -48,7 +48,7 @@ namespace Currency_Berechner
                             case "USD":
                                 break;
                             case "EUR":
-                                targetAmount = sourceAmount * Convert.ToInt32(0.92);
+                                targetAmount = sourceAmount * Convert.ToInt32(0.92); // Hier sollte er am besten Mal rechnen, wenn das funktionieren würde, wäre ich fertig.
                                 break;
                             case "JPY":
                                 break;
