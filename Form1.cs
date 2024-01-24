@@ -18,40 +18,58 @@ namespace Currency_Berechner
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount)) //1. Fehler, ich benutze decimal zuerst und deklaniere sie danach, das funktioniert nicht, ich verusche herauszufinden wie, habe aber bis jetzt noch keine Lösung gefunden.
+            decimal targetAmount = 0;
+
+            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
             {
-                decimal exchangeRate = GetExchangeRate(sourceAmount, targetAmount);
-                decimal targetAmount = sourceAmount * exchangeRate;
-                
+
+                decimal exchangeRate = GetExchangeRate(Convert.ToString(sourceAmount), Convert.ToString(targetAmount));
+                targetAmount = sourceAmount * exchangeRate;
+
                 txttargetAmount.Text = targetAmount.ToString("N2");
             }
             else
             {
-                MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bitte geben Sie einen g�ltigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private static decimal GetExchangeRate(string sourceCurrency, string targetCurrency) // 2. Fehler, er sagt mir das nicht alle Werte zurückgegeben werden, muss ich ebenfalls noch eine Lösung finden.
+        private decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
         {
+            int source = int.Parse(txtsourceAmount.Text);
+            Convert.ToDouble(source);
+
+            int target = int.Parse(txttargetAmount.Text);
+            Convert.ToDouble(target);
+
             switch (sourceCurrency)
             {
                 case "USD":
                     switch (targetCurrency)
                     {
-                        case "USD": return 1;
-                        case "EUR": return 0.85m;
-                        case "JPY": return 110.2m;
-                        case "GBP": return 0.73m;
-                        case "AUD": return 1.35m;
+                        case "USD":
+                            break;
+                        case "EUR":
+                            target = source;
+                            break;
+                        case "JPY":
+                            break;
+                        case "GBP":
+                            break;
+                        case "AUD":
+                            break;
                         default: return 1;
                     }
+                    break;
+
                 case "EUR":
 
                     break;
-
+                
                 default:
                     return 1;
             }
+            return 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
