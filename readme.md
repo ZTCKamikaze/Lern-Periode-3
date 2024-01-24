@@ -46,7 +46,7 @@ Mika Olmes
 | ... |     |     |     |     |
 | 8   |     |     |     |     |
 
-✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll.
+✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll. Ich werde unter der Woche und am Wochenende probieren den Code fertig zu machen, den Code den ich bis jetzt habe lade ich Ihnen noch hoch.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
