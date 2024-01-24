@@ -48,6 +48,8 @@ Mika Olmes
 
 ✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll. Ich werde unter der Woche und am Wochenende probieren den Code fertig zu machen, den Code den ich bis jetzt habe lade ich Ihnen noch hoch.
 
+✍️ Heute (24.1.2024) hatte ich sehr viel ausfall, und da habe ich am Code weitergearbeitet, und habe meine 2 Fehler von gestern behoben, doch nun bin ich auf einen neuen Fehler gestossen, und zwar kann ich mit einem decimal und double nicht * rechnen, ich muss diesen Fehler beheben, weiss aber noch nicht wie. Ich lade den Code erneut hoch.
+
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
 ## 30.1.2024
