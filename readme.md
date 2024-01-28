@@ -51,7 +51,7 @@ Mika Olmes
 
 ✍️ Heute (24.1.2024) hatte ich sehr viel ausfall, und da habe ich am Code weitergearbeitet, und habe meine 2 Fehler von gestern behoben, doch nun bin ich auf einen neuen Fehler gestossen, und zwar kann ich mit einem decimal und double nicht * rechnen, ich muss diesen Fehler beheben, weiss aber noch nicht wie. Ich lade den Code erneut hoch.
 
-✍️ Heute (28.01.2024) habe ich meinen Code zu ende bekommen, er kann jetzt 5 Währungen berechnen, das Programm mit einem Button beenden, Abkürzungen mithilfe eines Buttons erklären und die Kurse der Währungen ebenfalls mit einem Button erklären. Er erkennt auch falsche Eingaben wie Buchstaben, leider erkennt er keine Minus Zahlen.
+✍️ Heute (28.01.2024) habe ich meinen Code zu ende bekommen, er kann jetzt 5 Währungen berechnen, das Programm mit einem Button beenden, Abkürzungen mithilfe eines Buttons erklären und die Kurse der Währungen ebenfalls mit einem Button erklären. Er erkennt auch falsche Eingaben wie Buchstaben, leider erkennt er keine Minus Zahlen. Den Code werde ich Ihnen erneut hochladen.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
