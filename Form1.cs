@@ -23,57 +23,104 @@ namespace Currency_Berechner
             if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
             {
 
-                decimal exchangeRate = GetExchangeRate(Convert.ToString(sourceAmount), Convert.ToString(targetAmount));
+                decimal exchangeRate = GetExchangeRate(SourceAmount.Text, TargetAmount.Text);
                 targetAmount = sourceAmount * exchangeRate;
 
-                txttargetAmount.Text = targetAmount.ToString("N2"); // txttargetAmount.Text = targetAmount * case USD -- case EUR:
-            }                                                       // txttargetAmount.Text = targetAmount.ToString("N2");
+                txttargetAmount.Text = targetAmount.ToString("N2");
+            }
             else
             {
-                MessageBox.Show("Bitte geben Sie einen gültigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Bitte geben Sie einen g�ltigen Betrag ein.", "Fehler", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
         {
-            if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
-            {
-                switch (sourceCurrency)
+            switch (sourceCurrency)
                 {
                     case "USD":
-                        decimal targetAmount;
-
-                        switch (targetCurrency)
-                        {
-                            case "USD":
-                                break;
-                            case "EUR":
-                                targetAmount = sourceAmount * Convert.ToInt32(0.92); // Hier sollte er am besten Mal rechnen, wenn das funktionieren würde, wäre ich fertig.
-                                break;
-                            case "JPY":
-                                break;
-                            case "GBP":
-                                break;
-                            case "AUD":
-                                break;
-                            default: return 1;
-                        }
-                        break;
-
+                    switch (targetCurrency)
+                    {
+                        case "USD":
+                            return 1;
+                        case "EUR":
+                            return 0.92m;
+                        case "JPY":
+                            return 146.05m;
+                        case "GBP":
+                            return 0.79m;
+                        case "CHF":
+                            return 0.86m;
+                        default: return 1;
+                    }
                     case "EUR":
-
-                        break;
-
-                    default:
+                    switch (targetCurrency)
+                    {
+                        case "USD":
+                            return 1.09m;
+                        case "EUR":
+                            return 1;
+                        case "JPY":
+                            return 159.52m;
+                        case "GBP":
+                            return 0.86m;
+                        case "CHF":
+                            return 0.94m;
+                        default: return 1;
+                    }
+                case "CHF":
+                    switch (targetCurrency)
+                    {
+                        case "USD":
+                            return 1.16m;
+                        case "EUR":
+                            return 1.07m;
+                        case "JPY":
+                            return 169.97m;
+                        case "GBP":
+                            return 0.92m;
+                        case "CHF":
+                            return 1;
+                        default: return 1;
+                    }
+                case "GBP":
+                    switch (targetCurrency)
+                    {
+                        case "USD":
+                            return 1.27m;
+                        case "EUR":
+                            return 1.16m;
+                        case "JPY":
+                            return 185.14m;
+                        case "GBP":
+                            return 1;
+                        case "CHF":
+                            return 1.09m;
+                        default: return 1;
+                    }
+                case "JPY":
+                    switch (targetCurrency)
+                    {
+                        case "USD":
+                            return 0.0068m;
+                        case "EUR":
+                            return 0.0063m;
+                        case "JPY":
+                            return 1;
+                        case "GBP":
+                            return 0.0054m;
+                        case "CHF":
+                            return 0.0059m;
+                        default: return 1;
+                    }
+                default:
                         return 1;
                 }
-            }
-            return 0;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("CHF -- EUR\t1.07\r" +
+            MessageBox.Show("Stand 09.1.2024\r" + "CHF -- EUR\t1.07\r" +
                 "\nCHF -- GBP\t0.92\r" +
                 "\nCHF -- JPY\t169.97\r" +
                 "\nCHF -- USD\t1.16\r" +
