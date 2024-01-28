@@ -19,14 +19,14 @@ Mika Olmes
 - [X] Die 5 wichtigsten Währungen eingetragen
 - [X] Die 5 Währungen unter einem Button erklärt (Bsp. EUR = Euro oder CHF = Schweizer Franken)
 - [X] Beziehungen zwischen den Währungen herausfinden (am besten mit einer Tabelle als Notiz)
-- [ ] Die Beziehungen in den Code einführen 
+- [X] Die Beziehungen in den Code einführen 
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
 | 1   |Programm in Visual Studio gestartet|EUR auswählen|Box heisst jetzt EUR|  JA   |
-| 2   |     |     |     |     |
-| 3   |     |     |     |     |
-| 4   |     |     |     |     |
+| 2   |Programm in Visual Studio gestartet|Button drücken|Messagebox mit erklärten Begriffen |  JA  |
+| 3   |Programm in Visual Studio gestartet|Button drücken|Messagebox mit den Kursen     |  JA  |
+| 4   |Programm in Visual Studio gestartet|     |     |     |
 
 ✍️ heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie.
 
@@ -34,21 +34,24 @@ Mika Olmes
 
 ## 23.1.2024
 
-- [ ] Alle Währungen sollten ausgerechnet werden
-- [ ] Es soll negative Zahlen als ungültig erkennnen (sowohl auch Buchstaben) und komma zahlen als gültig
-- [ ] Einen Button der das Programm beendet
+- [X] Alle Währungen sollten ausgerechnet werden
+- [X] Es soll negative Zahlen als ungültig erkennnen (sowohl auch Buchstaben) und komma zahlen als gültig
+- [X] Einen Button der das Programm beendet
 - [ ] Wenn noch zeit ist: Designe anpassen oder mehr Währungen einfügen.
   
 
 | Testfall-Nummer | Ausgangslage (Given) | Eingabe (When) | Ausgabe (Then) | Erfüllt? |
 | --- | --- | --- | --- | --- |
-| 5   |   Programm in Visual Studio gestartet  |   -23 EUR - 2 CHF  |   Falsche Eingabe  |   NEIN  |
-| ... |     |     |     |     |
-| 8   |     |     |     |     |
+| 5   |Programm in Visual Studio gestartet| USD 10 - EUR |  USD 10 - EUR 9.20  |   JA  |
+| 6   |Programm in Visual Studio gestartet|   -23 EUR - 2 CHF  |   Falsche Eingabe  |   NEIN  |
+| 7   |Programm in Visual Studio gestartet|  Button drücken   |  Programm wird beendet   |  JA   |
+| 8   |Programm in Visual Studio gestartet|abc|Flasche Eingabe|  JA   |
 
 ✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll. Ich werde unter der Woche und am Wochenende probieren den Code fertig zu machen, den Code den ich bis jetzt habe lade ich Ihnen noch hoch.
 
 ✍️ Heute (24.1.2024) hatte ich sehr viel ausfall, und da habe ich am Code weitergearbeitet, und habe meine 2 Fehler von gestern behoben, doch nun bin ich auf einen neuen Fehler gestossen, und zwar kann ich mit einem decimal und double nicht * rechnen, ich muss diesen Fehler beheben, weiss aber noch nicht wie. Ich lade den Code erneut hoch.
+
+✍️ Heute (28.01.2024) habe ich meinen Code zu ende bekommen, er kann jetzt 5 Währungen berechnen, das Programm mit einem Button beenden, Abkürzungen mithilfe eines Buttons erklären und die Kurse der Währungen ebenfalls mit einem Button erklären. Er erkennt auch falsche Eingaben wie Buchstaben, leider erkennt er keine Minus Zahlen.
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
