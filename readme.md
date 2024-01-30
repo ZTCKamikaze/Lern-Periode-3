@@ -62,7 +62,9 @@ Mika Olmes
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+
 Diesesmal hatte ich gut und konzentriert arbeiten können und sogar meinen Code fertig bekommen, ich hatte zwar hin und wieder ein paar Probleme, doch ich habe mir diese Probleme vorgenommen und konnte sie so auch lösen, weil ich nicht einfach aufgegeben habe sondern immer weiter veruscht habe das Problem zu lösen. Ich bin sehr zufrieden mit meinem Programm, doch leider ist der Code nicht ganz Übersichtlich gestalltet, für das nächste mal nehme ich mir vor den Code und die Namen der Variabeln und Funktionen besser zu Überlegen. Was ich in Zukunft noch machen könnte wäre es weitere Währungen hinzuzufügen, denn gerade habe ich nur 5 Währungen. (106 Wörter)
 
 Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchtige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
+
 Ich finde das beide Vorgeghensweisen ihre Nachteile und Vorteie haben, in der LP2 fande ich es gut etwas selber zu machen was mit Informatik zu tun hat (M319), aber es war nicht so spannend und wir mussten oft in die Schule kommen. Die LP3 hat mir glaube ich ein kleines bisschen mehr Spass gemacht, denn ich konnte ein Code von Grund auf neu erstellen und diesen dann auch zu vollenden, das ich nicht in die Schule musste und zu Hause in Ruhe an meinem Code arbeiten konnte war sehr cool. Das einzige was mich ein klein wenig gestört hat, war, das wir nicht so viel Zeit hatten, aber am Schluss habe ich es noch geschafft. (115 Wörter)
