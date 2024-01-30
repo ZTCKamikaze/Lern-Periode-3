@@ -23,7 +23,7 @@ namespace Currency_Berechner
             if (decimal.TryParse(txtsourceAmount.Text, out decimal sourceAmount))
             {
 
-                decimal exchangeRate = GetExchangeRate(SourceAmount.Text, TargetAmount.Text);
+                decimal exchangeRate = GetExchangeRate(sourceCombobox.Text, targetCombobox.Text);
                 targetAmount = sourceAmount * exchangeRate;
 
                 txttargetAmount.Text = targetAmount.ToString("N2");
@@ -37,8 +37,8 @@ namespace Currency_Berechner
         private decimal GetExchangeRate(string sourceCurrency, string targetCurrency)
         {
             switch (sourceCurrency)
-                {
-                    case "USD":
+            {
+                case "USD":
                     switch (targetCurrency)
                     {
                         case "USD":
@@ -53,7 +53,7 @@ namespace Currency_Berechner
                             return 0.86m;
                         default: return 1;
                     }
-                    case "EUR":
+                case "EUR":
                     switch (targetCurrency)
                     {
                         case "USD":
@@ -114,8 +114,8 @@ namespace Currency_Berechner
                         default: return 1;
                     }
                 default:
-                        return 1;
-                }
+                    return 1;
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
