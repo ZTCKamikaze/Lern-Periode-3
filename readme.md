@@ -28,7 +28,7 @@ Mika Olmes
 | 3   |Programm in Visual Studio gestartet|Button drücken|Messagebox mit den Kursen     |  JA  |
 | 4   |Programm in Visual Studio gestartet|     |     |     |
 
-✍️ heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie.
+✍️ Heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie. (49 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
@@ -47,11 +47,11 @@ Mika Olmes
 | 7   |Programm in Visual Studio gestartet|  Button drücken   |  Programm wird beendet   |  JA   |
 | 8   |Programm in Visual Studio gestartet|abc|Flasche Eingabe|  JA   |
 
-✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll. Ich werde unter der Woche und am Wochenende probieren den Code fertig zu machen, den Code den ich bis jetzt habe lade ich Ihnen noch hoch.
+✍️ Heute habe ich gerausgefunden wie ich die berechnungen machen kann, und zwar mit Switch Cases, die wollte ich heute auch noch hinzufügen, doch leider habe ich 2 Fehler und weiss nicht wie ich diese Lösen soll. Ich werde unter der Woche und am Wochenende probieren den Code fertig zu machen, den Code den ich bis jetzt habe lade ich Ihnen noch hoch. (62 Wörter)
 
-✍️ Heute (24.1.2024) hatte ich sehr viel ausfall, und da habe ich am Code weitergearbeitet, und habe meine 2 Fehler von gestern behoben, doch nun bin ich auf einen neuen Fehler gestossen, und zwar kann ich mit einem decimal und double nicht * rechnen, ich muss diesen Fehler beheben, weiss aber noch nicht wie. Ich lade den Code erneut hoch.
+✍️ Heute (24.1.2024) hatte ich sehr viel ausfall, und da habe ich am Code weitergearbeitet, und habe meine 2 Fehler von gestern behoben, doch nun bin ich auf einen neuen Fehler gestossen, und zwar kann ich mit einem decimal und double nicht * rechnen, ich muss diesen Fehler beheben, weiss aber noch nicht wie. Ich lade den Code erneut hoch. (59 Wörter)
 
-✍️ Heute (28.01.2024) habe ich meinen Code zu ende bekommen, er kann jetzt 5 Währungen berechnen, das Programm mit einem Button beenden, Abkürzungen mithilfe eines Buttons erklären und die Kurse der Währungen ebenfalls mit einem Button erklären. Er erkennt auch falsche Eingaben wie Buchstaben, leider erkennt er keine Minus Zahlen. Den Code werde ich Ihnen erneut hochladen.
+✍️ Heute (28.01.2024) habe ich meinen Code zu ende bekommen, er kann jetzt 5 Währungen berechnen, das Programm mit einem Button beenden, Abkürzungen mithilfe eines Buttons erklären und die Kurse der Währungen ebenfalls mit einem Button erklären. Er erkennt auch falsche Eingaben wie Buchstaben, leider erkennt er keine Minus Zahlen. Den Code werde ich Ihnen erneut hochladen. (56 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 23.1 Ihren fixfertigen Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
@@ -62,5 +62,7 @@ Mika Olmes
 ## Reflexion
 
 Formen Sie Ihre Zusammenfassungen in Hinblick auf Ihren VBV zu einem zusammenhängenden Text von 100 bis 200 Wörtern (wieder mit Angabe in Klammern).
+Diesesmal hatte ich gut und konzentriert arbeiten können und sogar meinen Code fertig bekommen, ich hatte zwar hin und wieder ein paar Probleme, doch ich habe mir diese Probleme vorgenommen und konnte sie so auch lösen, weil ich nicht einfach aufgegeben habe sondern immer weiter veruscht habe das Problem zu lösen. Ich bin sehr zufrieden mit meinem Programm, doch leider ist der Code nicht ganz Übersichtlich gestalltet, für das nächste mal nehme ich mir vor den Code und die Namen der Variabeln und Funktionen besser zu Überlegen. Was ich in Zukunft noch machen könnte wäre es weitere Währungen hinzuzufügen, denn gerade habe ich nur 5 Währungen. (106 Wörter)
 
 Verfassen Sie zusätzlich einen kurzen Abschnitt, in welchem Sie über die Länge der Projekte reflektieren: Fanden Sie die 9-wöchtige LP2 oder die 4-wöchige LP3 angenehmer? Was bedeutet das für Ihre Planung der zukünftigen LP?
+Ich finde das beide Vorgeghensweisen ihre Nachteile und Vorteie haben, in der LP2 fande ich es gut etwas selber zu machen was mit Informatik zu tun hat (M319), aber es war nicht so spannend und wir mussten oft in die Schule kommen. Die LP3 hat mir glaube ich ein kleines bisschen mehr Spass gemacht, denn ich konnte ein Code von Grund auf neu erstellen und diesen dann auch zu vollenden, das ich nicht in die Schule musste und zu Hause in Ruhe an meinem Code arbeiten konnte war sehr cool. Das einzige was mich ein klein wenig gestört hat, war, das wir nicht so viel Zeit hatten, aber am Schluss habe ich es noch geschafft. (115 Wörter)
