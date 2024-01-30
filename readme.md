@@ -12,7 +12,7 @@ Mika Olmes
 
 ## 9.1.2024
 
-✍️ Heute habe ich mal geschaut was ich machen möchte. Zuerst wollte ich einen Vokavel Trainer für Japanische Grundwörter machen, doch ich habe ziemlich schnell gemerkt, dass es nicht so einfach für mich ist, darum habe ich nochmals nachgedacht was ich sonst machen könnte. Am Schluss bin ich dazu gekommen, dass ich einen Currency-Converter machen möchte. Aber ich weiss noch nicht genau ob ich das schaffen werde.(66 Wörter)
+✍️ Heute habe ich mal geschaut was ich machen möchte. Zuerst wollte ich einen Vokavel Trainer für Japanische Grundwörter machen, doch ich habe ziemlich schnell gemerkt, dass es nicht so einfach für mich ist, darum habe ich nochmals nachgedacht was ich sonst machen könnte. Am Schluss bin ich dazu gekommen, dass ich einen Currency-Converter machen möchte. Aber ich weiss noch nicht genau ob ich das schaffen werde. (66 Wörter)
 
 ## 16.1.2024
 
@@ -28,7 +28,7 @@ Mika Olmes
 | 3   |Programm in Visual Studio gestartet|Button drücken|Messagebox mit den Kursen     |  JA  |
 | 4   |Programm in Visual Studio gestartet|     |     |     |
 
-✍️ Heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie. (49 Wörter)
+✍️ Heute habe ich Die 5 Wichtigsten Währungen herausgefunden und diese dann in den Code eingeführt (noch nicht kokplett), die Währungskürzel werden unter einem Button erklärt und dazu habe ich noch die Kurse herausgesucht und auch gefunden, jetzt müssen diese in den Code rein, aber ich weiss noch nicht wie. (50 Wörter)
 
 ☝️ Vergessen Sie nicht, bis zum 16.1 einen ersten Code auf github hochzuladen, und in der Spalte **Erfüllt?** einzutragen, ob Ihr Code die Test-Fälle erfüllt
 
@@ -57,7 +57,7 @@ Mika Olmes
 
 ## 30.1.2024
 
-✍️ Heute am 23.1 habe ich... (50-100 Wörter)
+✍️ Heute am 30.01.2024 habe ich meinen Code gesäubert und darüber vieles gelernt wie ich es besser machen kann und auch aus meinen eigenen Fehlern gelernt, dazu habe ich noch mein GitHub Profil besser gestaltet und auch gelernt was man alles noch so mit GitHub machen kann (Website erstellen). Zu guter Letzt habe ich noch eine Reflexion geschrieben. (57 Wörter)
 
 ## Reflexion
 
